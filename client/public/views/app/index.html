@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US" ng-app="boilerplateapp">
+<!--<![endif]-->
+<head>
+    <title>MEAN-OPENSHIFT boolierplate</title>
+    <!-- meta -->
+    <meta http-equiv=" X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <!-- google fonts -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/public/css/framework/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/framework/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/css/app/style.css" media="screen"/>
+
+</head>
+
+<body ng-controller="boilerplatecontroller">
+
+<div>
+    Name:<input ng-model="name" type="text"/>
+    <br>
+    Name:<input ng-model="name" type="text"/>
+    <br>
+    Name:<input ng-model="name" type="text"/>
+    <br>
+    Hello {{name}}
+
+    <div><p> {{greeting.message}}, World </p></div>
+    {{1+2}}
+</div>
+
+
+<script src="/public/js/framework/jquery/jquery-2.1.3.min.js"></script>
+<script src="/public/js/framework/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="/public/js/framework/bootstrap/bootstrap.min.js"></script>
+<script src="/public/js/framework/jquery/jquery.actual.min.js"></script>
+<script src="/public/js/framework/jquery/jquery.scrollTo.min.js"></script>
+
+<script src="/public/js/framework/angular/angular.js"></script>
+
+<script src="/public/js/app/controller.js"></script>
+<script src="/public/js/app/main.js"></script>
+
+</body>
+</html>
